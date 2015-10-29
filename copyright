@@ -1,0 +1,5 @@
+var today = new Date();
+var year = today.getFullYear();
+
+var msg = '<p>Copyright &copy;' + year + '</p>';
+document.getElementById('footer').innerHTML = msg;
