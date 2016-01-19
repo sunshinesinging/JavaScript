@@ -2,8 +2,8 @@ var userName = prompt("What's your name, user?");
 	var nameIsCorrect = false;  
 	while (nameIsCorrect == false) {  
 		if (confirm("You entered " + userName + ". Is this correct?")) {  
-		ageIsCorrect = true; alert("Great! Your name is logged as " + userName + "."); }  
-
+			nameIsCorrect = true; 
+			alert("Great! Your name is logged as " + userName + "."); }  
 		else { userName = prompt("What's your name, user?");  
 		} 
 	} 
